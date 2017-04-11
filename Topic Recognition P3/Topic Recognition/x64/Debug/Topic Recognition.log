@@ -1,0 +1,32 @@
+﻿  Compiling CUDA source file topicRecognition.cu...
+  
+  C:\Users\Mohammed Aashyk\Documents\Visual Studio 2015\Projects\Topic Recognition\Topic Recognition>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin\nvcc.exe" -gencode=arch=compute_20,code=\"sm_20,compute_20\" --use-local-env --cl-version 2015 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64"  -I"C:\Program Files\boost_1_62_0\boost_1_62_0" -I"C:\Program Files\boost_1_62_0\boost_1_62_0\boost" -I"C:\Program Files\boost_1_62_0\boost_1_62_0" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include"  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile -cudart static  -g   -D_CRT_SECURE_NO_DEPRECATE -D_CRT_NONSTDC_NO_DEPRECATE -D_CRT_SECURE_NO_WARNINGS -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /FS /Zi /RTC1 /MDd " -o x64\Debug\topicRecognition.cu.obj "C:\Users\Mohammed Aashyk\Documents\Visual Studio 2015\Projects\Topic Recognition\Topic Recognition\topicRecognition.cu" 
+C:\Program Files\boost_1_62_0\boost_1_62_0\boost/mpl/bool.hpp(29): warning : "constexpr" is ignored here in Microsoft mode
+C:\Program Files\boost_1_62_0\boost_1_62_0\boost/mpl/aux_/integral_wrapper.hpp(80): warning : "constexpr" is ignored here in Microsoft mode
+C:\Program Files\boost_1_62_0\boost_1_62_0\boost/type_traits/integral_constant.hpp(70): warning : "constexpr" is ignored here in Microsoft mode
+C:\Program Files\boost_1_62_0\boost_1_62_0\boost/type_traits/integral_constant.hpp(95): warning : "constexpr" is ignored here in Microsoft mode
+C:\Program Files\boost_1_62_0\boost_1_62_0\boost/utility/base_from_member.hpp(158): warning : "constexpr" is ignored here in Microsoft mode
+C:\Program Files\boost_1_62_0\boost_1_62_0\boost/core/noncopyable.hpp(27): warning : "constexpr" is ignored here in Microsoft mode
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include\thrust/system/cuda/detail/for_each.inl(153): warning : calling a __host__ function("std::_Iterator_base12::_Iterator_base12") from a __host__ __device__ function("std::_Iterator_base12::_Iterator_base12 [subobject]") is not allowed
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include\thrust/system/cuda/detail/for_each.inl(153): warning : calling a __host__ function("std::_Iterator_base12::~_Iterator_base12") from a __host__ __device__ function("std::_Iterator_base12::~_Iterator_base12 [subobject]") is not allowed
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include\thrust/system/cuda/detail/synchronize.inl(35): warning : calling a __host__ function("cudaDeviceSynchronize") from a __host__ __device__ function("thrust::system::cuda::detail::synchronize") is not allowed
+C:\Program Files\boost_1_62_0\boost_1_62_0\boost/mpl/bool.hpp(29): warning : "constexpr" is ignored here in Microsoft mode
+C:\Program Files\boost_1_62_0\boost_1_62_0\boost/mpl/aux_/integral_wrapper.hpp(80): warning : "constexpr" is ignored here in Microsoft mode
+C:\Program Files\boost_1_62_0\boost_1_62_0\boost/type_traits/integral_constant.hpp(70): warning : "constexpr" is ignored here in Microsoft mode
+C:\Program Files\boost_1_62_0\boost_1_62_0\boost/type_traits/integral_constant.hpp(95): warning : "constexpr" is ignored here in Microsoft mode
+C:\Program Files\boost_1_62_0\boost_1_62_0\boost/utility/base_from_member.hpp(158): warning : "constexpr" is ignored here in Microsoft mode
+C:\Program Files\boost_1_62_0\boost_1_62_0\boost/core/noncopyable.hpp(27): warning : "constexpr" is ignored here in Microsoft mode
+CUDACOMPILE : nvcc warning : The 'compute_20', 'sm_20', and 'sm_21' architectures are deprecated, and may be removed in a future release (Use -Wno-deprecated-gpu-targets to suppress warning).
+  topicRecognition.cu
+C:/Users/Mohammed Aashyk/Documents/Visual Studio 2015/Projects/Topic Recognition/Topic Recognition/topicRecognition.cu(157): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:/Users/Mohammed Aashyk/Documents/Visual Studio 2015/Projects/Topic Recognition/Topic Recognition/topicRecognition.cu(210): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:/Users/Mohammed Aashyk/Documents/Visual Studio 2015/Projects/Topic Recognition/Topic Recognition/topicRecognition.cu(266): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:/Users/Mohammed Aashyk/Documents/Visual Studio 2015/Projects/Topic Recognition/Topic Recognition/topicRecognition.cu(326): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:/Users/Mohammed Aashyk/Documents/Visual Studio 2015/Projects/Topic Recognition/Topic Recognition/topicRecognition.cu(388): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:/Users/Mohammed Aashyk/Documents/Visual Studio 2015/Projects/Topic Recognition/Topic Recognition/topicRecognition.cu(454): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  Topic Recognition.vcxproj -> C:\Users\Mohammed Aashyk\Documents\Visual Studio 2015\Projects\Topic Recognition\x64\Debug\Topic Recognition.exe
+  Topic Recognition.vcxproj -> C:\Users\Mohammed Aashyk\Documents\Visual Studio 2015\Projects\Topic Recognition\x64\Debug\Topic Recognition.pdb (Full PDB)
+  copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin\cudart*.dll" "C:\Users\Mohammed Aashyk\Documents\Visual Studio 2015\Projects\Topic Recognition\x64\Debug\"
+  C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin\cudart32_80.dll
+  C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin\cudart64_80.dll
+          2 file(s) copied.
